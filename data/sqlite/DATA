@@ -1,0 +1,148 @@
+INSERT INTO `STATIONS` (id,name) VALUES (86,'PORTAL AMERICAS');
+INSERT INTO `STATIONS` (id,name) VALUES (87,'PATIO BONITO');
+INSERT INTO `STATIONS` (id,name) VALUES (88,'BIBLIOTECA TINTAL');
+INSERT INTO `STATIONS` (id,name) VALUES (89,'TV 86');
+INSERT INTO `STATIONS` (id,name) VALUES (90,'BANDERAS');
+INSERT INTO `STATIONS` (id,name) VALUES (91,'MANDALAY');
+INSERT INTO `STATIONS` (id,name) VALUES (92,'AV AMERICAS BOYACA');
+INSERT INTO `STATIONS` (id,name) VALUES (93,'MARSELLA');
+INSERT INTO `STATIONS` (id,name) VALUES (94,'PRADERA');
+INSERT INTO `STATIONS` (id,name) VALUES (95,'DISTRITO GRAFITI');
+INSERT INTO `STATIONS` (id,name) VALUES (96,'PUENTE ARANDA');
+INSERT INTO `STATIONS` (id,name) VALUES (97,'CARRERA 43');
+INSERT INTO `STATIONS` (id,name) VALUES (98,'ZONA INDUSTRIAL');
+INSERT INTO `STATIONS` (id,name) VALUES (99,'CDS - CARRERA 32');
+INSERT INTO `STATIONS` (id,name) VALUES (100,'SAN FACON KR 22');
+INSERT INTO `STATIONS` (id,name) VALUES (101,'LA SABANA');
+
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,86,1);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,87,2);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,88,3);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,89,4);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,90,5);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,91,6);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,92,7);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,93,8);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,94,9);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,95,10);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,96,11);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,97,12);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,98,13);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,99,14);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,81,15);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,100,16);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,101,17);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (6,14,18);
+
+
+INSERT INTO `STATIONS` (id,name) VALUES (102,'SAN MATEO');
+INSERT INTO `STATIONS` (id,name) VALUES (103,'TERREROS HOSPITAL -CV');
+INSERT INTO `STATIONS` (id,name) VALUES (104,'LEON XIII');
+INSERT INTO `STATIONS` (id,name) VALUES (105,'LA DESPENSA');
+INSERT INTO `STATIONS` (id,name) VALUES (106,'BOSA');
+INSERT INTO `STATIONS` (id,name) VALUES (107,'PORTAL SUR');
+INSERT INTO `STATIONS` (id,name) VALUES (108,'PERDOMO');
+INSERT INTO `STATIONS` (id,name) VALUES (109,'PASEO VILLA DEL RIO');
+INSERT INTO `STATIONS` (id,name) VALUES (110,'SEVILLANA');
+INSERT INTO `STATIONS` (id,name) VALUES (111,'VENECIA');
+INSERT INTO `STATIONS` (id,name) VALUES (112,'ALQUERIA');
+INSERT INTO `STATIONS` (id,name) VALUES (113,'GRAL SANTANDER');
+INSERT INTO `STATIONS` (id,name) VALUES (114,'NQS-CL 38A SUR');
+INSERT INTO `STATIONS` (id,name) VALUES (115,'NQS-CL 30 SUR');
+INSERT INTO `STATIONS` (id,name) VALUES (116,'SENA');
+INSERT INTO `STATIONS` (id,name) VALUES (117,'SANTA ISABEL');
+
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,102,1);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,103,2);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,104,3);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,105,4);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,106,5);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,107,6);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,108,7);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,109,8);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,110,9);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,111,10);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,112,11);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,113,12);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,114,13);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,115,14);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,116,15);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,117,16);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (7,82,17);
+
+--Linea 9, eje ambiental
+INSERT INTO `STATIONS` (id,name) VALUES (118,'UNIVERSIDADES');
+INSERT INTO `STATIONS` (id,name) VALUES (119,'LAS AGUAS');
+INSERT INTO `STATIONS` (id,name) VALUES (120,'MUSEO DE ORO');
+INSERT INTO `STATIONS` (id,name) VALUES (121,'SAN VICTORINO');
+
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (9,118,1);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (9,119,2);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (9,120,3);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (9,121,4);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (9,14,5);
+
+--Linea 10, CL 26
+INSERT INTO `STATIONS` (id,name) VALUES (122,'SAN DIEGO');
+INSERT INTO `STATIONS` (id,name) VALUES (123,'CENTRO MEMORIA');
+INSERT INTO `STATIONS` (id,name) VALUES (124,'CONCEJO DE BOGOTA');
+INSERT INTO `STATIONS` (id,name) VALUES (125,'CIUDAD UNIVERSITARIA');
+INSERT INTO `STATIONS` (id,name) VALUES (126,'RECINTO FERIAL');
+INSERT INTO `STATIONS` (id,name) VALUES (127,'QUINTA PAREDES');
+INSERT INTO `STATIONS` (id,name) VALUES (128,'GOBERNACION');
+INSERT INTO `STATIONS` (id,name) VALUES (129,'CAN');
+INSERT INTO `STATIONS` (id,name) VALUES (130,'SALITRE - EL GRECIO');
+INSERT INTO `STATIONS` (id,name) VALUES (131,'EL TIEMPO - MALOKA');
+INSERT INTO `STATIONS` (id,name) VALUES (132,'AVENIDA ROJAS');
+INSERT INTO `STATIONS` (id,name) VALUES (133,'NORMANDIA');
+INSERT INTO `STATIONS` (id,name) VALUES (134,'MODELIA');
+INSERT INTO `STATIONS` (id,name) VALUES (135,'PORTAL EL DORADO');
+INSERT INTO `STATIONS` (id,name) VALUES (136,'AEROPUERTO EL DORADO');
+
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,118,1);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,122,2);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,123,3);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,124,4);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,79,5);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,125,6);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,126,7);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,127,8);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,128,9);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,129,10);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,130,11);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,131,12);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,132,13);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,133,14);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,134,15);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,135,16);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (10,136,17);
+
+--Linea 11, KR 10
+INSERT INTO `STATIONS` (id,name) VALUES (137,'PORTAL 20 DE JULIO');
+INSERT INTO `STATIONS` (id,name) VALUES (138,'COUNTRY SUR');
+INSERT INTO `STATIONS` (id,name) VALUES (139,'AV 1 MAYO');
+INSERT INTO `STATIONS` (id,name) VALUES (140,'CIUDAD JARDIN UAN');
+INSERT INTO `STATIONS` (id,name) VALUES (141,'POLICARPA');
+INSERT INTO `STATIONS` (id,name) VALUES (142,'SAN BERNARDO');
+INSERT INTO `STATIONS` (id,name) VALUES (143,'LAS NIEVES');
+
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,137,1);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,138,2);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,139,3);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,140,4);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,141,5);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,142,6);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,85,7);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,121,8);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,143,9);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (11,122,10);
+
+
+--Linea 12, KR 7
+INSERT INTO `STATIONS` (id,name) VALUES (144,'MUSEO NACIONAL');
+
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (12,144,1);
+INSERT INTO `STOPS` (id_line,id_station,id_order) VALUES (12,122,2);
+
+
+
